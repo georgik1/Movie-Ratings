@@ -1,0 +1,8 @@
+C:\Users\Gope\source\repos\MovieRatings\MovieRatings\MovieRatings.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\Gope\source\repos\MovieRatings\MovieRatings\MovieRatings.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\Gope\source\repos\MovieRatings\MovieRatings\MovieRatings.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\Gope\source\repos\MovieRatings\MovieRatings\MovieRatings.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\Users\Gope\source\repos\MovieRatings\MovieRatings\MovieRatings.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\Gope\source\repos\MovieRatings\MovieRatings\MovieRatings.iOS\obj\iPhone\Debug\optimized\
+C:\Users\Gope\source\repos\MovieRatings\MovieRatings\MovieRatings.iOS\obj\iPhone\Debug\MovieRatings.iOS.csproj.AssemblyReference.cache
+C:\Users\Gope\source\repos\MovieRatings\MovieRatings\MovieRatings.iOS\obj\iPhone\Debug\MovieRatings.iOS.csproj.CoreCompileInputs.cache

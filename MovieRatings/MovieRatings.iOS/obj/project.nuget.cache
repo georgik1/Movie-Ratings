@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "PI0wyVDNZSlgXBClCfw09pX1gFvVpo/ZHKjZSyCYcrDO1qUVrXdJvwnCSL415WIFOqIUM0kynyxpR35BWGvHqA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gope\\source\\repos\\MovieRatings\\MovieRatings\\MovieRatings.iOS\\MovieRatings.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gope\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Gope\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Gope\\.nuget\\packages\\xamarin.forms\\5.0.0.2125\\xamarin.forms.5.0.0.2125.nupkg.sha512"
+  ],
+  "logs": []
+}

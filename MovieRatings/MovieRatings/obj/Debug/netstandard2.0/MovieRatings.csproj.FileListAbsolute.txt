@@ -1,0 +1,16 @@
+C:\Users\Gope\source\repos\MovieRatings\MovieRatings\MovieRatings\bin\Debug\netstandard2.0\MovieRatings.deps.json
+C:\Users\Gope\source\repos\MovieRatings\MovieRatings\MovieRatings\bin\Debug\netstandard2.0\MovieRatings.dll
+C:\Users\Gope\source\repos\MovieRatings\MovieRatings\MovieRatings\bin\Debug\netstandard2.0\ref\MovieRatings.dll
+C:\Users\Gope\source\repos\MovieRatings\MovieRatings\MovieRatings\bin\Debug\netstandard2.0\MovieRatings.pdb
+C:\Users\Gope\source\repos\MovieRatings\MovieRatings\MovieRatings\obj\Debug\netstandard2.0\MovieRatings.csproj.AssemblyReference.cache
+C:\Users\Gope\source\repos\MovieRatings\MovieRatings\MovieRatings\obj\Debug\netstandard2.0\MovieRatings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gope\source\repos\MovieRatings\MovieRatings\MovieRatings\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Gope\source\repos\MovieRatings\MovieRatings\MovieRatings\obj\Debug\netstandard2.0\Views\DetailsPage.xaml.g.cs
+C:\Users\Gope\source\repos\MovieRatings\MovieRatings\MovieRatings\obj\Debug\netstandard2.0\Views\LandingPage.xaml.g.cs
+C:\Users\Gope\source\repos\MovieRatings\MovieRatings\MovieRatings\obj\Debug\netstandard2.0\MovieRatings.AssemblyInfoInputs.cache
+C:\Users\Gope\source\repos\MovieRatings\MovieRatings\MovieRatings\obj\Debug\netstandard2.0\MovieRatings.AssemblyInfo.cs
+C:\Users\Gope\source\repos\MovieRatings\MovieRatings\MovieRatings\obj\Debug\netstandard2.0\MovieRatings.csproj.CoreCompileInputs.cache
+C:\Users\Gope\source\repos\MovieRatings\MovieRatings\MovieRatings\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Gope\source\repos\MovieRatings\MovieRatings\MovieRatings\obj\Debug\netstandard2.0\MovieRatings.dll
+C:\Users\Gope\source\repos\MovieRatings\MovieRatings\MovieRatings\obj\Debug\netstandard2.0\ref\MovieRatings.dll
+C:\Users\Gope\source\repos\MovieRatings\MovieRatings\MovieRatings\obj\Debug\netstandard2.0\MovieRatings.pdb

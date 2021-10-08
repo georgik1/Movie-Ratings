@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:viewmodel="clr-namespace:MovieRatings.ViewModel" 
+             x:DataType="viewmodel:DetailsViewModel"
+             mc:Ignorable="d" NavigationPage.HasNavigationBar="False"
+             x:Class="MovieRatings.Views.DetailsPage">
+    <Grid Padding="30" BackgroundColor="Black" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid Padding="0,10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <StackLayout Spacing="0" HorizontalOptions="End" VerticalOptions="Start">
+                <Label Text="MOVIE" TextColor="White" FontFamily="ThemeFont" FontSize =" 25" HorizontalOptions="Center"/>
+                <Label Text="RATINGS" Margin="0,-5,0,0" TextColor="White" Opacity="0.6"  FontFamily="LightFont" FontSize ="12" HorizontalOptions="Center"/>
+            </StackLayout>
+        </Grid>
+        <ScrollView Grid.Row="1" HorizontalOptions="FillAndExpand">
+            <Grid RowSpacing="50" HorizontalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <StackLayout Spacing="0" HorizontalOptions="Center" VerticalOptions="Start">
+                    <Label Text="{Binding SelectedMovie.Rating, StringFormat='{0}'}" TextColor="#F9B522"
+                           FontFamily="ThemeFont" FontSize="50" HorizontalOptions="Center"/>
+                    <Label Text="{Binding SelectedMovie.Name, StringFormat= '${0}'}" TextColor="White" Opacity="1" FontFamily="ThemeFont" FontSize="13" HorizontalOptions="Center"/>
+                </StackLayout>
+                <CarouselView Grid.Row="1" ItemsSource="{Binding Movies}" HeightRequest="260" HorizontalOptions="FillAndExpand"
+                              CurrentItem="{Binding SelectedMovie}" IsScrollAnimated="True" IsSwipeEnabled="True">
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid HorizontalOptions="FillAndExpand">
+                                <Image Source="{Binding SelectedMovie.Image}" Aspect="Fill" Margin="0,-50,0,0" HeightRequest="210"
+                                       WidthRequest="235" HorizontalOptions="Center" VerticalOptions="End"/>
+                            </Grid>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                </CarouselView>
+                <ImageButton Grid.Row="1" Source="Left.png" Margin="15,50,0,0" Aspect="Fill" HeightRequest="18" WidthRequest="18" HorizontalOptions="Start"
+                             VerticalOptions="Center" BackgroundColor="Transparent" Command="{Binding ChangePositionComand}" CommandParameter="L"/>
+                <ImageButton Grid.Row="1" Source="Right.png" Margin="0,50,15,0" Aspect="Fill" HeightRequest="18" WidthRequest="18" HorizontalOptions="End"
+                             VerticalOptions="Center" BackgroundColor="Transparent" Command="{Binding ChangePositionComand}" CommandParameter="R"/>
+                <Label Text="{Binding SelectedMovie.Name, StringFormat='{0}'}" TextColor="#F9B522"
+                       FontFamily="ThemeFont" FontSize="25" HorizontalOptions="End"/>
+                <BoxView BackgroundColor="#F9B522" HeightRequest="2" WidthRequest="45" VerticalOptions="Start" HorizontalOptions="End"/>
+                <Label Text="{Binding SelectedMovie.Description}" TextColor="White" WidthRequest="250" FontFamily="LightFont"/>
+            </Grid>
+        </ScrollView>
+    </Grid>
+    
+</ContentPage>

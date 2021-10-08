@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "f2t0o+QVlGsd5hgPH3pE6CSk8/DneAXkFLlYajNx2DQjXw8NrQ3X+QasC0GI8HYg6Yw0EMY7IganMxw4FKh/oA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gope\\source\\repos\\MovieRatings\\MovieRatings\\MovieRatings\\MovieRatings.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gope\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Gope\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Gope\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Gope\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Gope\\.nuget\\packages\\xamarin.forms\\5.0.0.2125\\xamarin.forms.5.0.0.2125.nupkg.sha512"
+  ],
+  "logs": []
+}
